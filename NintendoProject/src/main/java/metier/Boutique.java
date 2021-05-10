@@ -11,7 +11,6 @@ public class Boutique {
 	
 	public Boutique(String nom, Adresse adresse, List<Jeu> jeux) {
 
-
 		this.nom = nom;
 		this.adresse = adresse;
 		this.jeux = jeux;
