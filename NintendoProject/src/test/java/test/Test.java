@@ -3,6 +3,7 @@ package test;
 import java.util.ArrayList;
 import java.util.List;
 
+import metier.Achat;
 import metier.Adresse;
 import metier.Boutique;
 import metier.Client;
@@ -24,6 +25,7 @@ public class Test {
 		List<Console> consoles = new ArrayList();
 		List<Jeu> jeux = new ArrayList();
 		List<Jeu> jeux2 = new ArrayList();
+		List<Achat> achats = new ArrayList();
 		
 		Boutique gamestop = new Boutique("Gamestop",adresseGamestop,jeux);
 		Boutique micromania = new Boutique("Micromania",adresseMicromania,jeux2);
@@ -47,7 +49,11 @@ public class Test {
 		jeux3.add(zelda);
 		jeux3.add(donkeyKong);
 		
-		//Client c1 = new Client("Martin","Louis", jeux3);
+		Achat achat1 = new Achat(pokemon, "2010-05-12", 100, micromania);
+		
+		achats.add(achat1);
+		
+		Client c1 = new Client("Martin","Louis", achats);
 
 	}
 
