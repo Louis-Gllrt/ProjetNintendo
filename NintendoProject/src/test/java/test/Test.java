@@ -43,7 +43,6 @@ public class Test {
 		jeux.add(donkeyKong);
 		jeux2.add(smashBros);
 		jeux2.add(zelda);
-
 		jeux3.add(pokemon);
 		jeux3.add(zelda);
 		jeux3.add(donkeyKong);

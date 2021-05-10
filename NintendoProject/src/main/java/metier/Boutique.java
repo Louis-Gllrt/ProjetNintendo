@@ -7,7 +7,7 @@ public class Boutique {
 	
 	private String nom;
 	Adresse adresse;
-	List<Jeu> jeux = new ArrayList();
+	List<Jeu> jeux = new ArrayList<Jeu>();
 	
 	public Boutique(String nom, Adresse adresse, List<Jeu> jeux) {
 
