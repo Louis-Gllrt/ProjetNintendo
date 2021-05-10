@@ -13,6 +13,7 @@ public class Jeu {
 	public Jeu(String titre, List<Console> consoles, Boutique boutique) {
 		this.titre = titre;
 		this.consoles = consoles;
+		this.boutique=boutique;
 	}
 
 	
