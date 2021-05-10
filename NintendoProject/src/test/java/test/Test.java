@@ -5,6 +5,7 @@ import java.util.List;
 
 import metier.Adresse;
 import metier.Boutique;
+import metier.Client;
 import metier.Console;
 import metier.Jeu;
 
@@ -32,6 +33,7 @@ public class Test {
 		Jeu zelda = new Jeu("A Link to the past", consoles,micromania);
 		Jeu donkeyKong = new Jeu("Donkey Kong 64", consoles,  gamestop);
 		Jeu pokemon = new Jeu("Pokemon rouge et bleu", consoles,micromania);
+		List<Jeu> jeux3= new ArrayList<Jeu>();
 		
 		consoles.add(gameCube);
 		consoles.add(wii);
@@ -41,9 +43,12 @@ public class Test {
 		jeux.add(donkeyKong);
 		jeux2.add(smashBros);
 		jeux2.add(zelda);
-		
 
+		jeux3.add(pokemon);
+		jeux3.add(zelda);
+		jeux3.add(donkeyKong);
 		
+		Client c1 = new Client("Martin","Louis", jeux3);
 
 	}
 

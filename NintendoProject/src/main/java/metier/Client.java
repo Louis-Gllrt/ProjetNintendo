@@ -7,6 +7,10 @@ public class Client {
 	private String nom;
 	private String prenom;
 	private List<Jeu> jeux;
+<<<<<<< HEAD
+=======
+	
+>>>>>>> c47163efb7a8f641ff4e5c091500b968a14f360b
 	public Client(String nom, String prenom, List<Jeu> jeux) {
 		super();
 		this.nom = nom;
