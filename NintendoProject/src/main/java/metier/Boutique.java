@@ -5,8 +5,8 @@ import java.util.List;
 
 public class Boutique {
 	
-	protected String nom;
 	protected Adresse adresse;
+	protected String nom;
 	protected List<Jeu> jeux = new ArrayList();
 	
 	public Boutique(String nom, Adresse adresse, List<Jeu> jeux) {
