@@ -3,6 +3,7 @@ package test;
 import java.util.ArrayList;
 import java.util.List;
 
+import metier.Client;
 import metier.Console;
 import metier.Jeu;
 
@@ -16,6 +17,7 @@ public class Test {
 		Console gameboy = new Console("Gameboy");
 		
 		List<Console> consoles = new ArrayList();
+		List<Jeu> jeu3= new ArrayList<Jeu>();
 		
 		consoles.add(gameCube);
 		consoles.add(wii);
@@ -27,6 +29,13 @@ public class Test {
 		Jeu donkeyKong = new Jeu("Donkey Kong 64", consoles);
 		Jeu pokemon = new Jeu("Pokemon rouge et bleu", consoles);
 		
+		jeu3.add(pokemon);
+		jeu3.add(zelda);
+		jeu3.add(donkeyKong);
+		
+		Client c1 = new Client("Martin","Louis", jeu3);
+
+	
 	}
 
 }
