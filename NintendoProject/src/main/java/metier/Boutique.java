@@ -5,9 +5,9 @@ import java.util.List;
 
 public class Boutique {
 	
-	private String nom;
-	Adresse adresse;
-	List<Jeu> jeux = new ArrayList();
+	protected String nom;
+	protected Adresse adresse;
+	protected List<Jeu> jeux = new ArrayList();
 	
 	public Boutique(String nom, Adresse adresse, List<Jeu> jeux) {
 
@@ -40,10 +40,5 @@ public class Boutique {
 	public void setJeux(List<Jeu> jeux) {
 		this.jeux = jeux;
 	}
-	
-	
-	
-	
-	
 
 }

@@ -7,11 +7,20 @@ public class Client {
 	private String nom;
 	private String prenom;
 	private List<Jeu> jeux;
-	protected Client(String nom, String prenom, List<Jeu> jeux) {
+	private List<Achat> achats;
+	
+//	public Client(String nom, String prenom, List<Jeu> jeux) {
+//		super();
+//		this.nom = nom;
+//		this.prenom = prenom;
+//		this.jeux = jeux;
+//	}
+	
+	public Client(String nom, String prenom, List<Achat> achats) {
 		super();
 		this.nom = nom;
 		this.prenom = prenom;
-		this.jeux = jeux;
+		this.achats = achats;
 	}
 	public String getNom() {
 		return nom;

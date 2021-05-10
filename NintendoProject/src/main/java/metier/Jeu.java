@@ -4,8 +4,8 @@ import java.util.List;
 
 public class Jeu {
 
-	private String titre;
-	private List<Console> consoles;
+	protected String titre;
+	protected List<Console> consoles;
 	
 	
 	
