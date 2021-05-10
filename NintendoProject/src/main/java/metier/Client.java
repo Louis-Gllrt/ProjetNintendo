@@ -7,7 +7,7 @@ public class Client {
 	private String nom;
 	private String prenom;
 	private List<Jeu> jeux;
-	protected Client(String nom, String prenom, List<Jeu> jeux) {
+	public Client(String nom, String prenom, List<Jeu> jeux) {
 		super();
 		this.nom = nom;
 		this.prenom = prenom;
