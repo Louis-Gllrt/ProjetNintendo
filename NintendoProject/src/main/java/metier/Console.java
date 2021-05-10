@@ -3,12 +3,12 @@ package metier;
 public class Console {
 
 	private String nom;
-	private double prix;
-	private String dateSortie;
+	protected double prix;
+	protected String dateSortie;
 
 	
 
-	protected Console(String nom, double prix, String dateSortie) {
+	public Console(String nom, double prix, String dateSortie) {
 		super();
 		this.nom = nom;
 		this.prix = prix;

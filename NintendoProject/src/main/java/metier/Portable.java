@@ -2,9 +2,12 @@ package metier;
 
 public class Portable extends Console {
 
-	public Portable(String nom) {
-		super(nom);
+	protected Portable(String nom, double prix, String dateSortie) {
+		super(nom, prix, dateSortie);
 		// TODO Auto-generated constructor stub
 	}
+
+
+	
 
 }

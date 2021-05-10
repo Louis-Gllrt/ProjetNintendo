@@ -13,10 +13,10 @@ public class Test {
 
 	public static void main(String[] args) {
 
-		Console gameCube = new Console("Game Cube");
-		Console wii = new Console("Wii");
-		Console snes = new Console("SNES");
-		Console gameboy = new Console("Gameboy");
+		Console gameCube = new Console("Game Cube",200,"2010-05-12");
+		Console wii = new Console("Wii",2000,"2010-05-12");
+		Console snes = new Console("SNES",200,"2010-05-12");
+		Console gameboy = new Console("Gameboy",200,"2010-05-12");
 
 		Adresse adresseGamestop =new Adresse(420,"rue du swag","Old York");
 		Adresse adresseMicromania =new Adresse(666,"rue du seum","Flavortown");
@@ -47,7 +47,7 @@ public class Test {
 		jeux3.add(zelda);
 		jeux3.add(donkeyKong);
 		
-		Client c1 = new Client("Martin","Louis", jeux3);
+		//Client c1 = new Client("Martin","Louis", jeux3);
 
 	}
 

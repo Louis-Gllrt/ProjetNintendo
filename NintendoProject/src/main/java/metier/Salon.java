@@ -2,9 +2,11 @@ package metier;
 
 public class Salon extends Console{
 
-	public Salon(String nom) {
-		super(nom);
+	protected Salon(String nom, double prix, String dateSortie) {
+		super(nom, prix, dateSortie);
 		// TODO Auto-generated constructor stub
 	}
+
+
 
 }
