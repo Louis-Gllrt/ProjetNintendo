@@ -4,14 +4,27 @@ import java.util.List;
 
 public class Jeu {
 
-	protected String titre;
-	protected List<Console> consoles;
+	private String titre;
+	private List<Console> consoles;
+	private Boutique boutique;
 	
 	
 	
-	public Jeu(String titre, List<Console> consoles) {
+	public Jeu(String titre, List<Console> consoles, Boutique boutique) {
 		this.titre = titre;
 		this.consoles = consoles;
+	}
+
+	
+
+	public Boutique getBoutique() {
+		return boutique;
+	}
+
+
+
+	public void setBoutique(Boutique boutique) {
+		this.boutique = boutique;
 	}
 
 
